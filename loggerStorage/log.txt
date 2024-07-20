@@ -1,0 +1,582 @@
+[2024-07-11T12:56:16.697Z] [CustomLog] Received create request with data: {"name":"manvitha","email":"meghs@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-11T12:59:42.796Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-11T13:03:55.631Z] [CustomError] HTTP Exception: Unauthorized 
+UnauthorizedException: Unauthorized
+    at JwtAuthGuard.handleRequest (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:60:30)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:44:124
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:83:24
+    at allFailed (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:314:9)
+    at JwtStrategy.authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:88:3
+[2024-07-11T13:04:22.293Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-11T13:04:42.141Z] [CustomLog] Received create request with data: {"name":"manvitha","email":"meghs@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-11T13:09:49.087Z] [CustomLog] Received create request with data: {"name":"manvitha","email":"meghs@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+
+
+[2024-07-11T13:19:29.038Z] [CustomLog] Received create request with data: {"name":"shivam","email":"shivam@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-11T13:25:12.040Z] [CustomLog] Received create request with data: {"name":"shivam124","email":"shivam@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T04:45:43.317Z] [CustomLog] Received create request with data: {"name":"shivam124","email":"shivam@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T08:04:30.825Z] [CustomLog] Received create request with data: {"name":"chetan patil","email":"chetanpatil@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T08:14:23.925Z] [CustomLog] Received create request with data: {"name":"satish","email":"satish@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T08:16:41.272Z] [CustomLog] Received create request with data: {"name":"sureshsamal","email":"sureshsamal@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T08:20:16.005Z] [CustomLog] Received create request with data: {"name":"sureshsamal","email":"sureshsamal@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T08:27:06.694Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-12T08:49:43.114Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-12T09:28:18.791Z] [CustomError] HTTP Exception: Cannot POST /test 
+NotFoundException: Cannot POST /test
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/nishchitha/Desktop/notify (copy)/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+[2024-07-12T09:28:55.504Z] [CustomError] HTTP Exception: Cannot POST /test 
+NotFoundException: Cannot POST /test
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/nishchitha/Desktop/notify (copy)/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+[2024-07-12T09:29:08.865Z] [CustomError] HTTP Exception: Unauthorized 
+UnauthorizedException: Unauthorized
+    at JwtAuthGuard.handleRequest (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:60:30)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:44:124
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:83:24
+    at allFailed (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:314:9)
+    at JwtStrategy.authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:88:3
+[2024-07-12T10:18:46.363Z] [CustomError] HTTP Exception: Unauthorized 
+UnauthorizedException: Unauthorized
+    at JwtAuthGuard.handleRequest (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:60:30)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:44:124
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:83:24
+    at allFailed (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:314:9)
+    at JwtStrategy.authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/strategy.js:96:21)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:88:3
+[2024-07-12T10:21:27.949Z] [CustomLog] Received create request with data: {"name":"sureshsamal","email":"sureshsamal@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T10:22:47.507Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-12T10:23:36.657Z] [CustomLog] Received create request with data: {"name":"sureshsamal","email":"sureshsamal@gss.in","phone":"9380264223","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T10:25:25.113Z] [CustomError] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-12T10:25:58.392Z] [CustomError] HTTP Exception: Cannot POST /send 
+NotFoundException: Cannot POST /send
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/nishchitha/Desktop/notify (copy)/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+[2024-07-12T10:37:10.080Z] [CustomError] HTTP Exception: Cannot POST /send 
+NotFoundException: Cannot POST /send
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:77:19)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:23
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/nishchitha/Desktop/notify (copy)/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:328:13)
+[2024-07-12T10:37:31.149Z] [CustomLog] Received create request with data: {"name":"samal","email":"sureshsamal@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T10:42:07.608Z] [CustomLog] Received create request with data: {"name":"satish","email":"sureshsamal@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T10:56:12.181Z] [] Received create request with data: {"name":"satish","email":"sureshsamal@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"mahalaksmi","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T11:22:51.837Z] [successuful] Received create request with data: {"name":"madhu","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T12:14:56.314Z] [successuful] Received create request with data: {"name":"madhu","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T12:15:54.101Z] [successuful] Received create request with data: {"name":"maddy","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T12:23:16.125Z] [NotifyLog] Received create request with data: {"name":"maddy","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T12:23:16.126Z] [NotifyLog] hiii
+[2024-07-12T12:51:02.563Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-12T12:52:17.797Z] [NotifyLog] Received create request with data: {"name":"maddy1","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-12T12:52:17.799Z] [Warning Message] This is a warning message.
+[2024-07-15T05:39:39.327Z] [NotifyLog] Received create request with data: {"name":"maddy1","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T05:39:57.728Z] [NotifyLog] Received create request with data: {"name":"avinash","email":"avinash@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T05:46:30.997Z] [NotifyLog] Received create request with data: {"name":"ragvendra","email":"aragavendra@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T06:08:41.302Z] [NotifyLog] Received create request with data: {"name":"rajesh","email":"rajesh@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T06:09:24.103Z] [error] HTTP Exception: Unauthorized 
+UnauthorizedException: Unauthorized
+    at JwtAuthGuard.handleRequest (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:60:30)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:44:124
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/passport/dist/auth.guard.js:83:24
+    at allFailed (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:110:18)
+    at attempt (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:183:28)
+    at JwtStrategy.strategy.fail (/home/nishchitha/Desktop/notify (copy)/node_modules/passport/lib/middleware/authenticate.js:314:9)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/strategy.js:106:33
+    at Object.module.exports [as verify] (/home/nishchitha/Desktop/notify (copy)/node_modules/jsonwebtoken/verify.js:70:12)
+    at Function.module.exports [as JwtVerifier] (/home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/verify_jwt.js:4:16)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/passport-jwt/lib/strategy.js:104:25
+[2024-07-15T06:10:53.845Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:43:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T06:12:34.189Z] [NotifyLog] Received create request with data: {"name":"rajesh","email":"rajesh@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T06:22:45.613Z] [NotifyLog] Received create request with data: {"name":"rajeshmadhu","email":"rajesh@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T07:12:54.240Z] [error] HTTP Exception: Forbidden resource 
+ForbiddenException: Forbidden resource
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:137:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:18:09.167Z] [error] HTTP Exception: Forbidden resource 
+ForbiddenException: Forbidden resource
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:137:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:19:05.651Z] [error] HTTP Exception: Forbidden resource 
+ForbiddenException: Forbidden resource
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:137:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:20:09.630Z] [NotifyLog] Received create request with data: {"name":"rajeshmadhu","email":"rajesh@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T07:28:17.888Z] [error] HTTP Exception: Forbidden resource 
+ForbiddenException: Forbidden resource
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:137:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:31:02.829Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:44:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:32:02.849Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:44:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T07:48:07.012Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:44:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:09:15.404Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:44:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:11:37.208Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:44:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:12:24.531Z] [NotifyLog] Received create request with data: {"name":"rajeshmadhu","email":"rajesh@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T08:12:47.169Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:43:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:14:02.357Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:43:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:30:03.489Z] [error] HTTP Exception: Invalid token 
+UnauthorizedException: Invalid token
+    at RolesGuard.canActivate (/home/nishchitha/Desktop/notify (copy)/src/auth/roles.guard.ts:43:13)
+    at GuardsConsumer.tryActivate (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/guards/guards-consumer.js:15:34)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at canActivateFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:135:33)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:42:31
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T08:30:23.849Z] [NotifyLog] Received create request with data: {"merchant":"60c72b2f9b1d4c3f8f0a5e6b","reportType":"sales","channels":["email","sms"],"users":["60c72b2f9b1d4c3f8f0a5e6c","60c72b2f9b1d4c3f8f0a5e6d"],"createdOn":"2024-07-15T10:00:00.000Z","updatedOn":"2024-07-15T12:00:00.000Z"}
+[2024-07-15T08:35:27.167Z] [NotifyLog] Received create request with data: {"name":"nishchitha","email":"nishchitha@gss.in","phone":"9380264223"}
+[2024-07-15T09:06:24.148Z] [NotifyLog] Received create request with data: {"name":"nishchitha","email":"nishchitha@gss.in","phone":"9380264223"}
+[2024-07-15T09:06:33.337Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T09:39:31.101Z] [NotifyLog] Received create request with data: {"name":"nishchitha","email":"nishchitha@gss.in","phone":"9380264223"}
+[2024-07-15T10:31:55.199Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T10:32:57.538Z] [NotifyLog] Received create request with data: {"merchantName":"Big Bite","location":"rajajinagr","orders":"43","amount":"30000"}
+[2024-07-15T10:34:05.070Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T10:34:27.919Z] [NotifyLog] Received create request with data: {"merchantName":"Big Bite98","outlet":"rajajinagr","orders":"43","amount":"30000"}
+[2024-07-15T10:46:50.103Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T10:47:16.913Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:09:35.492Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:10:03.730Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:12:27.024Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:14:00.012Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:14:22.942Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:15:31.389Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:17:16.910Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:17:48.686Z] [NotifyLog] Received create request with data: {"name":"maddy1","email":"mady@gss.in","phone":"8722124116","address":{"formatted":"123 Main Street, Apt 4B","locality":"nandini layout","state":"jaipur","city":"bengaluru","pincode":"900011"},"license":{"gst":"1234567890","fssai":"0987654321"},"notes":"Important client","active":true}
+[2024-07-15T11:25:59.552Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:26:17.996Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:26:52.558Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:27:01.777Z] [error] HTTP Exception: Bad Request Exception 
+BadRequestException: Bad Request Exception
+    at ValidationPipe.exceptionFactory (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:101:20)
+    at ValidationPipe.transform (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/pipes/pipes-consumer.js:15:25
+    at resolveParamValue (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:148:23)
+    at async Promise.all (index 0)
+    at pipesFn (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:151:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:37:30
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-execution-context.js:46:28
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:9:17
+[2024-07-15T11:30:37.382Z] [NotifyLog] Received create request with data: {"merchantName":"Big bite","outlets":{"location":"Vijayanagar","orders":10,"amount":500}}
+[2024-07-15T11:32:26.395Z] [NotifyLog] Received create request with data: {"merchantName":"Big bite","outlets":[{"location":"Vijayanagar","orders":10,"amount":500},{"location":"Rajajinagar","orders":10,"amount":500}]}
+[2024-07-15T11:35:30.968Z] [NotifyLog] Received create request with data: {"merchantName":"Big bite","total":1000.5,"orders":20,"outlets":[{"location":"Vijayanagar","orders":10,"amount":500},{"location":"Rajajinagar","orders":10,"amount":500}]}
+[2024-07-15T11:35:40.386Z] [error] HTTP Exception: Unexpected token , in JSON at position 47 
+BadRequestException: Unexpected token , in JSON at position 47
+    at RoutesResolver.mapExternalException (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:100:24)
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:86:24)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:21:23
+    at Layer.handle_error (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:326:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:326:13)
+[2024-07-15T11:36:17.427Z] [NotifyLog] Received create request with data: {"merchantName":"Big bite","total":1000,"orders":20,"outlets":[{"location":"Vijayanagar","orders":10,"amount":500},{"location":"Rajajinagar","orders":10,"amount":500}]}
+[2024-07-15T11:49:46.112Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":4,"merchant":"Big Bite","outlet":"jayanagar"}
+[2024-07-15T11:50:58.171Z] [error] HTTP Exception: Unexpected token , in JSON at position 42 
+BadRequestException: Unexpected token , in JSON at position 42
+    at RoutesResolver.mapExternalException (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:100:24)
+    at callback (/home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/routes-resolver.js:86:24)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/@nestjs/core/router/router-proxy.js:21:23
+    at Layer.handle_error (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:326:13)
+    at /home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/nishchitha/Desktop/notify (copy)/node_modules/express/lib/router/index.js:326:13)
+[2024-07-15T11:51:11.731Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":4,"merchant":"Big Bite","outlet":"jayanagar"}
+[2024-07-15T11:51:15.442Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":42,"merchant":"Big Bite","outlet":"jayanagar"}
+[2024-07-15T12:52:56.971Z] [NotifyLog] Received create request with data: {"type":"report.monthly","priority":1,"merchant":"Big Bite","outlet":"jayanagar"}
+[2024-07-16T04:21:11.606Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veena store","outlet":"malleshwaram"}
+[2024-07-16T13:01:00.656Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veena store","outlet":"malleshwaram"}
+[2024-07-16T13:01:06.903Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veena store","outlet":"majlleshwaram"}
+[2024-07-16T13:01:09.182Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veena store","outlet":"majlleshwaram"}
+[2024-07-16T13:01:12.048Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veena store","outlet":"majlleshwaram"}
+[2024-07-16T13:01:27.339Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veennna store","outlet":"majlleshwaram"}
+[2024-07-16T13:02:21.587Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"veennna store","outlet":"majllybujieshwaram"}
+[2024-07-16T13:02:27.673Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"vee hgb nnna store","outlet":"majllybujieshwaram"}
+[2024-07-16T13:02:38.202Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majllybujieshwaram"}
+[2024-07-16T13:16:49.892Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram1"}
+[2024-07-16T13:16:56.190Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram2"}
+[2024-07-16T13:17:06.614Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram3"}
+[2024-07-16T13:17:12.340Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram4"}
+[2024-07-16T13:17:17.988Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram5"}
+[2024-07-16T13:17:22.669Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram6"}
+[2024-07-16T13:17:29.486Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram7"}
+[2024-07-16T13:17:35.174Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram8"}
+[2024-07-16T13:17:42.146Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram9"}
+[2024-07-16T13:17:48.842Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram10"}
+[2024-07-16T13:18:26.902Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram11"}
+[2024-07-16T13:29:34.736Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram1"}
+[2024-07-16T13:29:39.643Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram2"}
+[2024-07-16T13:29:44.867Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram3"}
+[2024-07-16T13:29:49.534Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram4"}
+[2024-07-16T13:29:54.857Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram5"}
+[2024-07-16T13:30:00.606Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram6"}
+[2024-07-16T13:30:04.411Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram7"}
+[2024-07-16T13:30:11.030Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram8"}
+[2024-07-16T13:30:14.909Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram9"}
+[2024-07-16T13:30:19.961Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram10"}
+[2024-07-16T13:32:55.626Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram11"}
+[2024-07-16T13:35:16.055Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram1"}
+[2024-07-16T13:35:23.784Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram2"}
+[2024-07-16T13:35:29.924Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram3"}
+[2024-07-16T13:35:34.930Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram4"}
+[2024-07-16T13:35:40.159Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram5"}
+[2024-07-16T13:35:44.575Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram6"}
+[2024-07-16T13:35:48.942Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram7"}
+[2024-07-16T13:35:53.198Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram8"}
+[2024-07-16T13:35:59.333Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram9"}
+[2024-07-16T13:36:04.812Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram10"}
+[2024-07-16T13:36:19.170Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram11"}
+[2024-07-17T05:45:46.325Z] [NotifyLog] Received create request with data: {"type":"report.daily","priority":1,"merchant":"hjb hgb nnna store","outlet":"majlleshwaram11"}
